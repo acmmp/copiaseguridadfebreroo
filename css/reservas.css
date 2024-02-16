@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Pacifico');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+}
+
+/*--------------Estilos Base-------------*/
+/*--------------Estilos Base-------------*/
+/*--------------Estilos Base-------------*/
+/*--------------Estilos Base-------------*/
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;    
+}
+
+.container--flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {
+    width: 100%;
+}
+
+/*--------------Estilos Header-------------*/
+/*--------------Estilos Header-------------*/
+/*--------------Estilos Header-------------*/
+/*--------------Estilos Header-------------*/
+.main-header {
+    width: 100%;
+}
+.logo {
+    font-size: 1.8em;
+    color: #DE423A;
+    padding: 10px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+
+.main-header__contactInfo__phone {
+    background: #DE423A;
+    color: white;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.main-header__contactInfo__address {
+     padding: 10px 15px;
+     margin: 0;   
+}
+
+.main-header [class*="icon-"]:before {
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+
+/********************Estilos del Menu********************/
+/********************Estilos del Menu********************/
+/********************Estilos del Menu********************/
+.main-nav {
+    width: 100%;
+    position: relative;
+    z-index: 2000;
+    padding: 10px;
+}
+
+.icon-menu {
+    display: block;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5em
+}
+
+.social-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon [class*="icon-"] {
+    color: black;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 50%;
+}
+.social-icon__link {
+    text-decoration: none;
+}
+
+.menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,.85);
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.4s linear;
+}
+
+.menu__link {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    background: #DE423A;
+}
+
+.menu__link--select {
+    background: #DE423A;
+
+}
+
+.mostrar {
+    height: 196px;
+}
+
+/********************Estilos del Banner********************/
+/********************Estilos del Banner********************/
+/********************Estilos del Banner********************/
+.banner {
+    margin-top: -55px;
+    position: relative;
+}
+
+.banner:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    z-index: 1000;
+    top: 0;
+}
+.banner__img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.banner__content {
+    width: 90%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 1500;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+       
+    
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.centrar-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Establece la altura del contenedor al 100% de la ventana */
+    
+}
+
+
+.revd{
+
+    background: white; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
